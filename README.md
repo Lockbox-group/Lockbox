@@ -1,2 +1,3 @@
 # Lockbox
-#Mingming Su, Julie Kuang
+Author: CS: Mingming Su, Julie Kuang,
+        ECE: Cody Nhem, Jacob Gibson
