@@ -3,22 +3,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
-    <EditText
-        android:id="@+id/et_username_entry"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="22sp"
-        android:hint="Enter username"/>
-    <EditText
-        android:id="@+id/et_password_entry"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="22sp"
-        android:hint="Enter password"/>
     <Button
-        android:id="@+id/btn_loginButton_after_entering_password"
+        android:id="@+id/btn_send_package"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Admin Login"/>
+        android:text="Send Package"/>
+    <Button
+        android:id="@+id/btn_view_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View History"/>
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"/>
+
 
 </LinearLayout>

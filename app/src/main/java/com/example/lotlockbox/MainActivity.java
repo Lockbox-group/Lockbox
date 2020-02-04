@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.lotlockbox.ui.login.AdminLogin;
+import com.example.lotlockbox.ui.login.LoggedInUserView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         adminLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,AdminLogin.class);
+                Intent intent = new Intent(MainActivity.this, AdminLogin.class);
                 startActivity(intent);
 
             }
