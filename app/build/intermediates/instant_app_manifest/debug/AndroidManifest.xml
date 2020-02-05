@@ -38,6 +38,18 @@
             android:name="com.example.lotlockbox.sendPackage"
             android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
         </activity>
+        <activity
+            android:name="com.example.lotlockbox.packageSent"
+            android:parentActivityName="com.example.lotlockbox.sendPackage" >
+        </activity>
+        <activity
+            android:name="com.example.lotlockbox.adminSentHistory"
+            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
+        </activity>
+        <activity
+            android:name="com.example.lotlockbox.settingPage"
+            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
+        </activity>
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

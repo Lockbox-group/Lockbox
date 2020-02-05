@@ -11,7 +11,7 @@
 9-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:5:5-32:19
+11-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:5:5-46:19
 12        android:allowBackup="true"
 12-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -63,17 +63,38 @@
 38            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
 38-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:28:13-68
 39        </activity>
-40
-41        <provider
-41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-43            android:authorities="com.example.lotlockbox.lifecycle-process"
-43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-44            android:exported="false"
-44-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-45            android:multiprocess="true" />
-45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-46    </application>
-47
-48</manifest>
+40        <activity
+40-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:31:9-34:20
+41            android:name="com.example.lotlockbox.packageSent"
+41-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:31:19-46
+42            android:parentActivityName="com.example.lotlockbox.sendPackage" >
+42-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:32:13-54
+43        </activity>
+44        <activity
+44-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:36:9-39:20
+45            android:name="com.example.lotlockbox.adminSentHistory"
+45-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:36:19-51
+46            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
+46-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:37:13-68
+47        </activity>
+48        <activity
+48-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:41:9-44:20
+49            android:name="com.example.lotlockbox.settingPage"
+49-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:41:19-46
+50            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" >
+50-->C:\Users\JulieK\AndroidStudioProjects\Lockbox\app\src\main\AndroidManifest.xml:42:13-68
+51        </activity>
+52
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+55            android:authorities="com.example.lotlockbox.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JulieK\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+58    </application>
+59
+60</manifest>

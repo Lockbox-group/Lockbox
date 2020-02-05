@@ -3,21 +3,14 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
-    <Button
-        android:id="@+id/btn_send_package"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Package"/>
+        android:text="Package is sent!"/>
     <Button
-        android:id="@+id/btn_admin_view_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View History"/>
-    <Button
-        android:id="@+id/btn_setting"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Setting"/>
-
+        android:id="@+id/btn_send_another_package_admin"
+        android:text="Send Another Package"/>
 
 </LinearLayout>
