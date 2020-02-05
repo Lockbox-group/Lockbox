@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.example.lotlockbox.ui.login.AdminLogin;
 import com.example.lotlockbox.ui.login.LoggedInUserView;
+import com.example.lotlockbox.ui.login.CustomerLogin;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,5 +28,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button customerLoginBtn = findViewById(R.id.btn_login_customer);
+        customerLoginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CustomerLogin.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
+
+
 }
+
+
