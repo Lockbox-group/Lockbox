@@ -17,18 +17,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".packageSent"
+            android:parentActivityName=".sendPackage"
+            >
+        </activity>
+
+        <activity android:name=".adminSentHistory"
+            android:parentActivityName=".ui.login.LoggedInUserView"
+            >
+        </activity>
+
+        <activity android:name=".settingPage"
+            android:parentActivityName=".ui.login.LoggedInUserView"
+            >
+        </activity>
         <activity
             android:name=".ui.login.AdminLogin"
             android:parentActivityName=".MainActivity"></activity>
-        <activity
-            android:name=".ui.login.CustomerLogin"
-            android:parentActivityName=".MainActivity"></activity>
+
         <activity
             android:name=".ui.login.LoggedInUserView"
             android:parentActivityName=".ui.login.AdminLogin"></activity>
         <activity
             android:name=".sendPackage"
             android:parentActivityName=".ui.login.LoggedInUserView"></activity>
+        <activity
+            android:name=".ui.login.CustomerLogin"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".ui.login.Cus_LoggedInUserView"
             android:parentActivityName=".ui.login.CustomerLogin"></activity>
