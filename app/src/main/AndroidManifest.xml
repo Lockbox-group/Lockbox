@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.lotlockbox">
 
     <application
@@ -50,6 +51,12 @@
         <activity
             android:name=".pickupResult"
             android:parentActivityName=".ui.login.Cus_LoggedInUserView"></activity>
+
+        <activity
+            android:name=".customerHistory"
+            android:parentActivityName=".ui.login.Cus_LoggedInUserView"></activity>
+
+
     </application>
 
 </manifest>
