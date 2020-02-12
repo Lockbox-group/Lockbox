@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.lotlockbox.create_account" />
         <activity android:name="com.example.lotlockbox.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,10 +28,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.lotlockbox.ui.login.AdminLogin"
-            android:parentActivityName="com.example.lotlockbox.MainActivity" />
+            android:name="com.example.lotlockbox.packageSent"
+            android:parentActivityName="com.example.lotlockbox.sendPackage" />
         <activity
-            android:name="com.example.lotlockbox.ui.login.CustomerLogin"
+            android:name="com.example.lotlockbox.adminSentHistory"
+            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" />
+        <activity
+            android:name="com.example.lotlockbox.settingPage"
+            android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" />
+        <activity
+            android:name="com.example.lotlockbox.ui.login.AdminLogin"
             android:parentActivityName="com.example.lotlockbox.MainActivity" />
         <activity
             android:name="com.example.lotlockbox.ui.login.LoggedInUserView"
@@ -39,10 +46,16 @@
             android:name="com.example.lotlockbox.sendPackage"
             android:parentActivityName="com.example.lotlockbox.ui.login.LoggedInUserView" />
         <activity
+            android:name="com.example.lotlockbox.ui.login.CustomerLogin"
+            android:parentActivityName="com.example.lotlockbox.MainActivity" />
+        <activity
             android:name="com.example.lotlockbox.ui.login.Cus_LoggedInUserView"
             android:parentActivityName="com.example.lotlockbox.ui.login.CustomerLogin" />
         <activity
             android:name="com.example.lotlockbox.pickupResult"
+            android:parentActivityName="com.example.lotlockbox.ui.login.Cus_LoggedInUserView" />
+        <activity
+            android:name="com.example.lotlockbox.customerHistory"
             android:parentActivityName="com.example.lotlockbox.ui.login.Cus_LoggedInUserView" />
 
         <provider

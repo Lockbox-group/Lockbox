@@ -20,7 +20,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+
 import com.example.lotlockbox.R;
+import com.example.lotlockbox.create_account;
 
 public class CustomerLogin extends AppCompatActivity {
 
@@ -115,6 +117,14 @@ public class CustomerLogin extends AppCompatActivity {
                   //      passwordEditText.getText().toString());
 
 
+            }
+        });
+        Button createAccountBtn = findViewById(R.id.btn_create_account);
+        createAccountBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CustomerLogin.this,create_account.class);
+                startActivity(intent);
             }
         });
     }

@@ -4,26 +4,26 @@
     android:layout_height="match_parent"
     android:gravity="center">
     <EditText
-        android:id="@+id/et_username_entry"
+        android:id="@+id/new_account_studentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Enter student ID"/>
+    <EditText
+        android:id="@+id/new_account_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22sp"
         android:hint="Enter username"/>
     <EditText
-        android:id="@+id/et_password_entry"
+        android:id="@+id/new_account_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22sp"
         android:hint="Enter password"/>
     <Button
-        android:id="@+id/btn_loginButton_after_entering_password"
+        android:id="@+id/btn_new_account_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Customer Login"/>
-    <Button
-        android:id="@+id/btn_create_account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Create a new Account"/>
-
+        android:text="Finish"/>
 </LinearLayout>
