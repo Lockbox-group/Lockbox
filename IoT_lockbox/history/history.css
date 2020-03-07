@@ -1,0 +1,73 @@
+
+body {
+    background-color: orange;
+    background-size:auto;
+}
+ 
+#login_frame {
+/*
+    width: 800px;
+    height: 500px;
+    padding: 13px;
+    
+    position: absolute;
+    
+   
+    margin-left:230px;
+    margin-top: 20px;
+    
+    background-color: white;
+    
+    border-radius: 10px;
+ */
+width: auto;
+height: auto;
+padding-top: 2em;
+padding-right: 1em;
+padding-bottom: 3em;
+padding-left: 1em;
+
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+
+/*
+ background-color: rgba(240, 255, 255, 0.5);
+ */
+
+border-radius: 10px;
+text-align: center;
+  
+}
+table
+{
+    width:100%;
+}
+td
+{
+    text-align:center;
+}
+
+
+a.button {
+    background-color: black;
+    border-radius: 6px;
+  
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 5px;
+    cursor: pointer;
+    
+   
+    margin-bottom: 100px;
+}
+
+
+
+

@@ -1,0 +1,128 @@
+
+body {
+/*
+    background-image: url("image/background.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+*/
+    background-color: orange;
+    background-size:auto;
+}
+ 
+#login_frame {
+    width: auto;
+    height: auto;
+   padding-top: 2em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+ 
+/* 
+   background-color: rgba(240, 255, 255, 0.5);
+ */
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+ 
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+#image_logo {
+    margin-top: 22px;
+}
+ 
+.label_input {
+    font-size: 14px;
+    font-family: Arial;
+ 
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: white;
+    background-color: black;
+}
+ 
+.text_field {
+    width: 270px;
+    height: 28px;
+    border: 0;
+}
+ 
+
+ 
+#more_info {
+    font-size: 12px;
+    color: orange;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+ 
+}
+ 
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ 
+#login_control {
+    padding: 0 28px;
+}
+a.button {
+    background-color: black;
+    border-radius: 6px;
+    line-height: 30px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+#pickup_btn {
+    background-color: black;
+    border-radius: 6px;
+    line-height: 30px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+#btn_login {
+    font-size: 14px;
+    font-family: Arial;
+    
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: 0;
+    
+    float: left;
+}
+

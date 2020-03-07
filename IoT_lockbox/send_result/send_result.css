@@ -1,0 +1,144 @@
+
+body {
+    background-color:orange;
+    background-size: auto;
+}
+/* 
+#login_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+ 
+    background-color: rgba(240, 255, 255, 0.5);
+ 
+    border-radius: 10px;
+    text-align: center;
+}
+*/
+#login_frame {
+    width: auto;
+    height: auto;
+   padding-top: 2em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+ 
+/* 
+ *    background-color: rgba(240, 255, 255, 0.5);
+ *     */
+
+    border-radius: 10px;
+    text-align: center;
+} 
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+#image_logo {
+    margin-top: 22px;
+}
+ 
+.label_input {
+/*    font-size: 14px;
+    font-family: Arial;
+    
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ */
+    background-color: orange;
+   
+    line-height: 40px;
+    border: none;
+    color: white;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1px 0px;
+    cursor: pointer;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ 
+.text_field {
+    width: 200px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+a.button {
+    background-color: black;
+    border-radius: 6px;
+    line-height: 40px;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+/*
+#btn_login {
+    font-size: 14px;
+    font-family: Arial;
+    
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: white;
+    background-color: orange;
+    border-radius: 6px;
+    border: 0;
+    
+    float: left;
+}
+ */
+
+#more_info {
+    font-size: 12px;
+    color: orange;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+ 
+}
+ 
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ 
+#login_control {
+    padding: 0 28px;
+}

@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<head>
+    <meta charset="UTF-8">
+    <title>Send Package</title>
+ 
+    <link rel="stylesheet" type="text/css" href="send_package.css"/>
+    
+</head>
+ 
+<body>
+<div id="login_frame">
+<!-- 
+    <p id="image_logo"><img src="image/logo.png" alt="Image" height="90" width="300"></p>
+-->
+
+ <form action = "sendPackage.php" method ="post">
+        <p><label class="label_input">Box Number</label><input type="text" name="box_num" maxlength="3" name="student_id" oninput = "value=value.replace(/[^\d]/g,'')" class="text_field"/></p>
+        <p><label class="label_input">Student ID</label><input type="text" name="student_id" maxlength="9" name="student_id" oninput = "value=value.replace(/[^\d]/g,'')" class="text_field"/></p>
+        <p><label class="label_input">Student email</label><input type="text" name="student_email" class="text_field"/></p>
+	 <input type = "submit" name = "submit" value = "Send Package"/>       
+<!--     
+        <div align="center">
+            <a href="../login/login.html" class="button">Send package</a></br>
+        </div>
+		
+		onclick ="send(this.form)"
+-->
+</form>
+</div>
+<script language = "javascript">
+    
+    function send(form)
+    {
+        if(form.box_num.value == "1" && form.student_id.value == "123"&&  form.student_email.value == "@")
+        {
+            
+            window.open('../login/login.html')
+        }
+        else
+        {
+            alert("Please enter infor:box# = 1;student_id = 123;email = @" )
+        }
+    }
+</script>
+</body>
+</html>
